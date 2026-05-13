@@ -63,7 +63,8 @@ GROQ_API_KEY=your_key_here
 ```python
 multi_ai_agent.print_response("Latest news for NVDA", stream=False)
 ```
-```If you want the visual Playground UI in your browser:
+If you want the visual Playground UI in your browser:
+```
 python playground.py
 ```
 
