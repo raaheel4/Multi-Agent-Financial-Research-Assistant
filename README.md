@@ -4,7 +4,7 @@ A multi-agent AI system that acts like a personal stock research assistant. You 
 Most stock research tools make you jump between tabs. This project uses two specialist AI agents working together, coordinated by an orchestrator, so you get financial data AND news in one single response.
 You ask: "Summarise analyst recommendations and share the latest news for NVDA"
 The system figures out the rest.
-# Architecture
+## Architecture
 ```mermaid
 graph TD
     A[User Query] --> B[Orchestrator Agent - LLaMA 3 via Groq]
@@ -13,7 +13,7 @@ graph TD
     C --> E[Combined Response]
     D --> E[Combined Response]
 ```
-# Getting Started:
+## Getting Started:
 **1. Clone the repo**
 ```bash
 git clone https://github.com/raaheel4/multi-agent-financial-research-assistant
@@ -68,8 +68,8 @@ If you want the visual Playground UI in your browser:
 python playground.py
 ```
 
-# Models Used  
+## Models Used  
 The project uses LLaMA 3.1 8B Instant served via Groq for all three agents. You can swap to a more powerful model like llama-3.3-70b-versatile in FinancialAI.py if you want stronger responses.
 
-# About 
+## About 
 Built as a hands-on introduction to agentic AI systems. This project explores multi-agent orchestration, tool use, and real-time data retrieval using open-source LLMs running on free infrastructure.
