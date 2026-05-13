@@ -16,8 +16,8 @@ graph TD
 # Getting Started:
 **1. Clone the repo**
 ```bash
-git clone https://github.com/raaheel4/FinancialAI.py
-cd FinancialAI.py
+git clone https://github.com/raaheel4/multi-agent-financial-research-assistant
+cd multi-agent-financial-research-assistant
 ```
 
 **2. Install dependencies**
