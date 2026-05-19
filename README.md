@@ -28,16 +28,16 @@ pip install -r requirements.txt
 **3. Get your API keys**
 You need two free API keys to run this project.
 
-🔑 Groq API Key (for the LLM)
-Groq gives you free access to LLaMA 3 — no credit card needed.
+Groq API Key (for the LLM)
+Groq gives you free access to LLaMA 3.
 
 Go to console.groq.com
 Sign up or log in
 Click API Keys in the left sidebar
 Click Create API Key, give it a name, and copy the key
-🔑 Phidata API Key (for the Playground UI)
+Phidata API Key (for the Playground UI)
 
-This is only needed if you want to use playground.py — the visual browser UI.
+This is only needed if you want to use playground.py, the visual browser UI.
 
 Go to phidata.app
 
